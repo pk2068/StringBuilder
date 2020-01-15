@@ -64,6 +64,7 @@ namespace StringBuilderNamespace
 			stopWatch.Reset();
 			stopWatch.Start();
 			stopWatch.Restart();
+			stopWatch.Stop();
 			Console.WriteLine(CompareStringsThirdTry(string1,string2,string3));
 			stopWatch.Stop();
 			ts = stopWatch.Elapsed;
